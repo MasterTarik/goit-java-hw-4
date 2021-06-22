@@ -9,7 +9,7 @@ class ControlPanel {
     private AirGauge airGauge = new AirGauge();
 
     public void control() {
-        System.out.println(altimeter);
+        System.out.print(altimeter + " ");
         System.out.println(airGauge);
     }
 
