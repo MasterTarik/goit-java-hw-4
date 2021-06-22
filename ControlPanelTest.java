@@ -1,3 +1,12 @@
+class ControlPanel {
+    private Altimeter altimeter = new Altimeter();
+    private AirGauge airGauge = new AirGauge();
+
+    public void control() {
+        System.out.println(altimeter + " " + airGauge);
+    }
+}
+
 class Altimeter {
     @Override
     public String toString() {
@@ -12,11 +21,4 @@ class AirGauge {
     }
 }
 
-class ControlPanel {
-    private Altimeter altimeter = new Altimeter();
-    private AirGauge airGauge = new AirGauge();
 
-    public void control() {
-        System.out.println(altimeter + " " + airGauge);
-    }
-}
