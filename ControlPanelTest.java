@@ -5,7 +5,6 @@ class ControlPanel {
     public void control() {
         System.out.println(altimeter + " " + airGauge);
     }
-}
 
 class Altimeter {
     @Override
@@ -20,5 +19,4 @@ class AirGauge {
         return "Measure air pressure";
     }
 }
-
-
+}
